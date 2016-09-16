@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seleniumTest", "seleniumTest\seleniumTest.csproj", "{54F5A6B3-90BC-4154-A95E-31C5806024F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54F5A6B3-90BC-4154-A95E-31C5806024F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F5A6B3-90BC-4154-A95E-31C5806024F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F5A6B3-90BC-4154-A95E-31C5806024F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F5A6B3-90BC-4154-A95E-31C5806024F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
