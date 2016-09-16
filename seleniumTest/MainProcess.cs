@@ -108,7 +108,7 @@ namespace seleniumTest
 
                                 break;
                             }
-                            catch (Exception ex)
+                            catch (Exception)
                             {
                                 Log($"Skipping PID {process}, trying on next PID");
                             }
@@ -158,7 +158,7 @@ namespace seleniumTest
                             temp.Add(fileContent[0]);
                             fileContent.RemoveAt(0);
                         }
-                        catch (Exception ex)
+                        catch (Exception)
                         {
                             break;
                         }
@@ -197,7 +197,7 @@ namespace seleniumTest
                 }
             }
 
-            //driver.Quit();
+            driver.Quit();
             Log("Process finished on thread ID " + Thread.CurrentThread.ManagedThreadId);
         }
 

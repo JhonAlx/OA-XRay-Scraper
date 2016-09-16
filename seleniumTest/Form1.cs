@@ -17,11 +17,6 @@ namespace seleniumTest
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
-
         private void CallSelenium()
         {
             MainProcess mp = new MainProcess();
@@ -53,16 +48,6 @@ namespace seleniumTest
             {
                 FileTxtBox.Text = openFileDialog1.FileName;
             }
-        }
-
-        private void cbxRank_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cbxNP_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
